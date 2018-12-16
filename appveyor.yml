@@ -1,0 +1,10 @@
+version: 2.14.1.{build}
+image: Visual Studio 2017
+configuration: Release
+platform: Any CPU
+build:
+  project: ScreenToGif\ScreenToGif.csproj
+  verbosity: minimal
+artifacts:
+- path: ScreenToGif\bin\Release\ScreenToGif.exe
+  name: screentogif
